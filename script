@@ -2,7 +2,7 @@ local bypass1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/UrMot
 local bypass2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/UrMotherLmao/bypass2/main/bypass2",true))();
 
 coroutine.resume(coroutine.create(function()
-while  wait(1) do
+while wait(1) do
 coroutine.resume(coroutine.create(function()
 for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren())do
                 if v:isA("Tool") then
