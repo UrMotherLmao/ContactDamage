@@ -1,22 +1,6 @@
 local bypass1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/UrMotherLmao/big-clean/main/bypass1",true))();
 local bypass2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/UrMotherLmao/bypass2/main/bypass2",true))();
 
-local starterGui = game:GetService("StarterGui")
-local mouse = plr:GetMouse()
-mouse.KeyDown:connect(function(key)
-    if key == "j" then
-        reach = reach + 1
-        starterGui:SetCore("SendNotification", {Title = "REACH", Text = "Reach has increased by 1. Current: " .. reach..' studs'})
-    elseif key == "k" then
-        if reach > 1 then
-            reach = reach - 1
-            starterGui:SetCore("SendNotification", {Title = "REACH", Text = "Reach Strength has decreased by 1. Current: " .. reach..' studs'})
-        else
-            starterGui:SetCore("SendNotification", {Title = "REACH", Text = "Cannot decrease reach any further"})
-        end
-    end
-end)
-
 coroutine.resume(coroutine.create(function()
 while  wait(1) do
 coroutine.resume(coroutine.create(function()
@@ -31,5 +15,3 @@ end
 end))
 end
 end))
-
-
