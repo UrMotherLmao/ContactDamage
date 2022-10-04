@@ -3,7 +3,7 @@ local bypass2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/UrMot
 local Clean = game.Players.LocalPlayer.Character:FindFirstChildOfClass('Tool')
 
 coroutine.resume(coroutine.create(function()
-if Tool then
+while wait(1) do
 coroutine.resume(coroutine.create(function()
 for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren())do
                 if v:isA("Tool") then
