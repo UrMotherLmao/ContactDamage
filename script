@@ -1,5 +1,6 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UrMotherLmao/big-clean/main/bypass1",true))();
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UrMotherLmao/bypass2/main/bypass2",true))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UrMotherLmao/bypass/main/damage",true))();
 
 coroutine.resume(coroutine.create(function()
 while wait(1) do
