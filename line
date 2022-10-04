@@ -1,9 +1,8 @@
 local bypass1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/UrMotherLmao/big-clean/main/bypass1",true))();
 local bypass2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/UrMotherLmao/bypass2/main/bypass2",true))();
-local Clean = game.Players.LocalPlayer.Character:FindFirstChildOfClass('Tool')
 
 coroutine.resume(coroutine.create(function()
-while wait(1) do
+wait(0.5)
 coroutine.resume(coroutine.create(function()
 for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren())do
                 if v:isA("Tool") then
