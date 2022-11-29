@@ -10,7 +10,7 @@ for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren())do
                     v["Anti-Exploit"]:Destroy()
                     v["Anti-Exploit"]:Destroy()
                     v.Handle.Massless = true
-                    v.Handle.Size = Vector3.new(reach,reach,reach)
+                    v.Handle.Size = Vector3.new(size)
                     v.Handle.Mesh.MeshId = "rbxassetid://5591363797"
                     v.Handle.Mesh.Scale = Vector3.new(0.97, 1.21, 0.97)
                 end
